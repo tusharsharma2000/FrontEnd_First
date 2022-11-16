@@ -1,0 +1,40 @@
+.main-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:25px 0;
+}
+
+#basic-addon2{
+    background-color: #ff1493;
+    color: white;
+}
+
+.left-part, .right-part
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-icons{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.input-group input.custom-width{
+    width: 400px;
+}
+
+.cart-text, .user-text{
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+    color: black;
+    font-weight: bold;
+}
+
+.marginLeft{
+    margin-left: 20px;
+}
