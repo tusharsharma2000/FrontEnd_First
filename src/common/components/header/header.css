@@ -8,6 +8,7 @@
 #basic-addon2{
     background-color: #ff1493;
     color: white;
+    cursor:pointer;
 }
 
 .left-part, .right-part
