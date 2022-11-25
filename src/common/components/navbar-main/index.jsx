@@ -1,13 +1,13 @@
 import React from "react";
 import "./navbar-main.css";
-import offerLogo from "../../assets/images/offers.svg";
+import offerLogo from "../../assets/icons/offers.svg";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
 const NavbarMain = () => {
     return (
-        <Navbar bg="primary" variant="dark">
+        <Navbar variant="dark" className="navbar">
             <Container>
                 <div className="nav-main">
                     <div className="left-part">

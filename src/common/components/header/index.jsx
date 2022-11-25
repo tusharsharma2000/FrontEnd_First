@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "../logo";
-import cartIcon from "../../assets/images/cart.svg";
-import userLogo from"../../assets/images/user.svg";
+import cartIcon from "../../assets/icons/cart.svg";
+import userLogo from"../../assets/icons/user.svg";
 import "./header.css";
 import { useNavigate } from "react-router-dom";
 
@@ -12,8 +12,7 @@ const Header = () => {
         navigate("/login");
     }
     return (
-        <div className="container-lg">
-            <div className="main-content">
+        <div className="container-lg main-content">
                 <div className="left-part">
                     <div>
                         <Logo darkMode/>
@@ -40,7 +39,6 @@ const Header = () => {
                         <span className="user-text mx-2">Sign Up/Login</span>
                     </div>
                 </div>
-            </div>
         </div>
     )
 };

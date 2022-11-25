@@ -1,6 +1,6 @@
 import React from "react";
-import mobileLarge from "../../assets/images/mobile-large.svg";
-import mobileBottom from "../../assets/images/mobile-bottom.svg";
+import mobileLarge from "../../assets/icons/mobile-large.svg";
+import mobileBottom from "../../assets/icons/mobile-bottom.svg";
 import "./banner.css";
 import Logo from "../logo";
 

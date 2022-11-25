@@ -30,21 +30,22 @@ const RegisterMain = () => {
                         className="form-control"
                     />
                 </div>
-                <div className="form-container my-2">
+                <div className="form-container my-3">
                     <input
-                        type="date"
+                        type="text"
                         placeholder="Date of birth(DD/MM/YYYY)"
+                        onFocus={"(this.type='date')"}
                         required
                         className="form-control" />
                 </div>
-                <div className="form-container my-2">
+                <div className="form-container my-3">
                     <input
                         type="password"
                         placeholder="Password"
                         required
                         className="form-control" />
                 </div>
-                <div className="form-container my-2">
+                <div className="form-container my-3">
                     <input
                         type="password"
                         placeholder="Confirm Password"
