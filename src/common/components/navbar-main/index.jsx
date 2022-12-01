@@ -19,13 +19,13 @@ const NavbarMain = () => {
                                 iPhones
                             </Nav.Link>
                             <Nav.Link href="#/oppo" className='custom-nav-link'>
-                                Oppo
+                                Oppo Mobiles
                             </Nav.Link>
                             <Nav.Link href="#/onePlus" className='custom-nav-link'>
-                                One Plus
+                                One Plus Mobiles
                             </Nav.Link>
                             <Nav.Link href="#/vivo" className='custom-nav-link'>
-                                Vivo
+                                Vivo Mobiles
                             </Nav.Link>
                             <Nav.Link href="#/others" className='custom-nav-link'>
                                 Others

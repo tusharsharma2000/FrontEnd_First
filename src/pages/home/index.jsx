@@ -6,9 +6,8 @@ import PopularOffers from "./components/popular-offers";
 import Footer from "../../common/components/footer";
 import "./home.css";
 
-
-const Home = ()=>{
-    return(
+const Home = () => {
+    return (
         <div className="home-page">
             <Header />
             <NavbarMain />
@@ -18,7 +17,7 @@ const Home = ()=>{
             </div>
             <Footer />
         </div>
-    )
+    );
 };
 
 export default Home;

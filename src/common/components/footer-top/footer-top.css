@@ -7,7 +7,7 @@
 }
 
 .feature-container{
-    border-right: 1px solid #95979a;
+    border-right: 1px solid #DDE5ED;
     padding: 40px;
 }
 
@@ -28,8 +28,8 @@
     color: #1E2228;
 }
 .feature-subtitle{
-    font-size: 13px;
+    font-size: 14px;
     line-height: 15px;
     text-align: center;
-    color: #939599;
+    color: #717275;
 }

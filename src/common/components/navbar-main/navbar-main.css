@@ -2,11 +2,12 @@
     color: white;
     font-size: 17px;
     font-weight: bold;
+    margin-right: 10px;
 }
 
 
 .left-part .navbar-nav .custom-nav-link.active{
-    color: #500cbd;
+    color: #6a1491;
 }
 
 .navbar{

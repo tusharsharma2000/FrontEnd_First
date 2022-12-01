@@ -7,6 +7,7 @@ import Home from './pages/home';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import "bootstrap-icons/font/bootstrap-icons.css";
+import ProductDetail from './pages/product-detail';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path='/' element={<Home/>}/>
         <Route path='/login' element={<Login />} />
         <Route path='/register' element={<Register />} />
+        <Route path='/product-detail' element={<ProductDetail />} />
       </Routes>
     </div>
   );
