@@ -1,56 +1,3 @@
-// import React from "react";
-// import "./footer-bottom.css";
-// import PaymentIcons from "../../assets/icons/payment-icons.svg";
-
-// const FooterBottom = () => {
-//     return (
-//         <div className="footer-bottom-main container">
-//             <div className="container">
-//                 <div className="row">
-//                     <div className="col-md-9 ">
-//                         <div className="left-part">
-//                             <div className="left-top">
-//                                 <div className="row">
-//                                     <div className="col-md-3">
-//                                         <div>
-//                                             <h2 className="footer-list-heading">About Us</h2>
-//                                         </div>
-//                                         <div>
-//                                             <ul>
-//                                                 <div>
-//                                                     <li className="footer-list-item">
-//                                                         <a href="#">About Coffeee</a>
-//                                                     </li>
-//                                                 </div>
-//                                                 <li className="footer-list-item">
-//                                                     <a href="#">Company Information</a>
-//                                                 </li>
-//                                                 <li className="footer-list-item">
-//                                                     <a href="#">News & Media</a>
-//                                                 </li>
-//                                                 <li className="footer-list-item">
-//                                                     <a href="#">Carrier Opportunity</a>
-//                                                 </li>
-//                                                 <li className="footer-list-item">
-//                                                     <a href="#">Code of Conduct</a>
-//                                                 </li>
-//                                             </ul>
-//                                         </div>
-//                                     </div>
-//                                 </div>
-//                             </div>
-//                             <div className="left-bottom"></div>
-//                         </div>
-//                         <div className="right-part col-md-3"></div>
-//                     </div>
-//                 </div>
-//             </div>
-//         </div>
-//     );
-// };
-
-// export default FooterBottom;
-
 import React from "react";
 import "./footer-bottom.css";
 import { footerLinks } from "./constants/footerOptions";
@@ -129,3 +76,99 @@ const FooterBottom = () => {
 };
 
 export default FooterBottom;
+
+
+// import React from "react";
+// import "./footer-bottom.css";
+// import Payments from "../../assets/icons/payment-icons.svg";
+// import Download from "../../assets/icons/app-download.svg";
+// import Facebook from "../../assets/icons/facebook.svg";
+// import Instagram from "../../assets/icons/instagram.svg";
+// import Twitter from "../../assets/icons/twitter.svg";
+// import Youtube from "../../assets/icons/youtube.svg";
+
+// const FooterBottom = () => {
+//     return (
+//         <div className="container footer-bottom-main">
+//             <div className="row">
+//                 <div className="col-md-9">
+//                     <div className="left-part">
+//                         <div className="left-top">
+//                             <div className="row">
+//                                 <div className="col-md-3">
+//                                     <div className="info">
+//                                         <h3 className="footer-link-heading">About Us</h3>
+//                                         <ul>
+//                                             <li className="list-items"><a href="#/">About coffeee</a></li>
+//                                             <li className="list-items"><a href="#/">Company info</a> </li>
+//                                             <li className="list-items"><a href="#/">News & media</a> </li>
+//                                             <li className="list-items"><a href="#/">Career and Opportunity</a> </li>
+//                                             <li className="list-items"><a href="#/">Code of Conduct</a> </li>
+//                                         </ul>
+//                                     </div>
+//                                 </div>
+//                                 <div className="col-md-3">
+//                                     <div className="info">
+//                                         <h3 className="footer-link-heading">About Us</h3>
+//                                         <ul>
+//                                             <li className="list-items"><a href="#/">About coffeee</a></li>
+//                                             <li className="list-items"><a href="#/">Company info</a> </li>
+//                                             <li className="list-items"><a href="#/">News & media</a> </li>
+//                                             <li className="list-items"><a href="#/">Career and Opportunity</a> </li>
+//                                             <li className="list-items"><a href="#/">Code of Conduct</a> </li>
+//                                         </ul>
+//                                     </div>
+//                                 </div>
+//                                 <div className="col-md-3">
+//                                     <div className="info">
+//                                         <h3 className="footer-link-heading">About Us</h3>
+//                                         <ul>
+//                                             <li className="list-items"><a href="#/">About coffeee</a></li>
+//                                             <li className="list-items"><a href="#/">Company info</a> </li>
+//                                             <li className="list-items"><a href="#/">News & media</a> </li>
+//                                             <li className="list-items"><a href="#/">Career and Opportunity</a> </li>
+//                                             <li className="list-items"><a href="#/">Code of Conduct</a> </li>
+//                                         </ul>
+//                                     </div>
+//                                 </div>
+//                                 <div className="col-md-3">
+//                                     <div className="info">
+//                                         <h3 className="footer-link-heading">About Us</h3>
+//                                         <ul>
+//                                             <li className="list-items"><a href="#/">About coffeee</a></li>
+//                                             <li className="list-items"><a href="#/">Company info</a> </li>
+//                                             <li className="list-items"><a href="#/">News & media</a> </li>
+//                                             <li className="list-items"><a href="#/">Career and Opportunity</a> </li>
+//                                             <li className="list-items"><a href="#/">Code of Conduct</a> </li>
+//                                         </ul>
+//                                     </div>
+//                                 </div>
+//                             </div>
+//                         </div>
+//                         <div className="left-bottom">
+//                             <img className="cursor-pointer" src={Payments} alt="paymets" />
+//                         </div>
+//                     </div>
+//                 </div>
+//                 <div className="col-md-3">
+//                     <div className="right-part">
+//                         <div className="right-top">
+//                             <h3 className="footer-link-heading">Download Our Amazing App</h3>
+//                             <img  className="cursor-pointer" src={Download} alt="play store and app store" />
+//                         </div>
+//                         <div className="right-bottom">
+//                             <h3 className="footer-link-heading"> Connect us on</h3>
+//                             <div className="footer-right-icons">
+//                                 <img className="cursor-pointer" src={Facebook} alt="facebook" />
+//                                 <img className="cursor-pointer" src={Twitter} alt="twitter" />
+//                                 <img className="cursor-pointer" src={Youtube} alt="youtube" />
+//                                 <img className="cursor-pointer" src={Instagram} alt="instagram" />
+//                             </div>
+//                         </div>
+//                     </div>
+//                 </div>
+//             </div>
+//         </div>
+//     )
+// }
+// export default FooterBottom;

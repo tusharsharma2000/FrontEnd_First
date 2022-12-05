@@ -3,7 +3,7 @@ import Phone2 from "../assets/images/phone-2.svg";
 import Phone3 from "../assets/images/phone-3.svg";
 import Phone4 from "../assets/images/phone-4.svg";
 
-export const SamplePhones = [
+export const SAMPLE_PHONES = [
     {
         imageFile: Phone1,
         name: "Samsung Galaxy S10 Plus (Ceramic White, 1 TB)",
