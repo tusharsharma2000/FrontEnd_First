@@ -1,0 +1,28 @@
+.product-pictures-main{
+    height: 100%;
+}
+.product-thumbnail{
+    background: #FEFEFE;
+    border: 2px solid #E9E9E9;
+    border-radius: 12px;
+    padding: 10px;
+    height: 75px;
+    width: 75px;
+    cursor: pointer;
+}
+
+.product-thumbnail.selected {
+    border: 2px solid #FF2C91;
+}
+
+.phone-img{
+    height: 100%;
+}
+
+.phone-container{
+    min-height: 400px;
+    max-width: 100%;
+    background: #FEFEFE;
+    padding: 15px;
+    border-radius: 12px;
+}

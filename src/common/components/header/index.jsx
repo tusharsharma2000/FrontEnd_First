@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "../logo";
-import cartIcon from "../../assets/icons/cart.svg";
+import CartIcon from "../../assets/icons/cart";
 import userLogo from"../../assets/icons/user.svg";
 import "./header.css";
 import { useNavigate } from "react-router-dom";
@@ -31,7 +31,7 @@ const Header = () => {
                 </div>
                 <div className="right-part">
                     <div className="header-icons">
-                        <img src={cartIcon} alt="cart-icon" />
+                        <CartIcon />
                         <span className="cart-text mx-2">Cart</span>
                     </div>
                     <div className="header-icons marginLeft" onClick={goToLoginPage}>

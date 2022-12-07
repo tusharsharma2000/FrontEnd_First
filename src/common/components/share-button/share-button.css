@@ -1,0 +1,17 @@
+.btn-share {
+    background: #FFFFFF;
+    border: 1px solid #D8D8D8;
+    border-radius: 6px;
+    padding: 4px 0px 4px 10px;
+    align-items: center;
+}
+
+.btn-share span {
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: bold;
+}
+
+.btn-share:hover {
+    border: 1px solid #D8D8D8;
+}

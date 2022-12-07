@@ -1,0 +1,10 @@
+.breadcrumb-item a {
+    color: #1D252D;
+    text-decoration: none;
+    line-height: 14px;
+    letter-spacing: -0.3px;
+    font-size: 12px;
+    color: #1D252D;
+}
+
+.breadcrumb-item.active {}

@@ -1,5 +1,6 @@
 import React from "react";
 import "./phone-product.css";
+import { useNavigate } from "react-router-dom";
 
 const PhoneProduct = (props) => {
 
@@ -10,10 +11,17 @@ const PhoneProduct = (props) => {
     originalPrice,
     discount,
     offer,
-    emi} = productData;
+    emi,
+    id} = productData;
+
+    const navigate = useNavigate();
+    const goToProductDetailPage = ()=>{
+        const productName = name.replaceAll(" ","-")
+        navigate(`/products/${productName}/${id}`);
+    }
 
     return(
-        <div className="phone-product">
+        <div className="phone-product" onClick={goToProductDetailPage}>
                     <div className="phone-image">
                         <img src={imageFile} alt="phone"/>
                     </div>

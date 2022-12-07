@@ -1,0 +1,132 @@
+.product-section-main {
+    text-align: left;
+}
+
+.product-title {
+    font-size: 24px;
+    line-height: 32px;
+    color: #1E2228;
+    font-weight: bold;
+}
+
+.key-features li {
+    list-style-type: none;
+}
+
+.key-features ul {
+    padding: 0;
+}
+
+.key-features li span {
+    padding-left: 12px;
+}
+
+.features-heading {
+    color: #76787b;
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: bold;
+}
+
+.feature {
+    font-size: 14px;
+    line-height: 22px;
+    color: #76787b;
+}
+
+.feature img{
+    width: 13px;
+    height: 13px;
+}
+
+.color-heading {
+    font-size: 14px;
+    line-height: 16px;
+    color: #1E2228;
+    font-weight: bold;
+}
+
+.quantity label {
+    font-size: 14px;
+    line-height: 16px;
+    color: #1E2228;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.custom-width-quantity {
+    width: 20%;
+}
+
+.current-phone-price {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    color: #1E2228;
+}
+
+.original-phone-price {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.4px;
+    text-decoration-line: line-through;
+    color: #76787b;
+}
+
+.discount-on-price {
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: bold;
+    color: #21C17A;
+}
+
+.price-bottom-part {
+    font-size: 14px;
+    line-height: 19px;
+    color: #76787b;
+}
+
+.other-details span{
+    font-size: 12px;
+line-height: 14px;
+color: #1E2228;
+font-weight: bold;
+}
+
+.add-to-cart-btn{
+    width: 198px;
+height: 56px;
+background: #FF2C91;
+border: 1px solid #FF2C91;
+border-radius: 6px;
+}
+
+.add-to-cart-btn span{
+    color: white;
+    font-size: 16px;
+line-height: 19px;
+text-align: center;
+    font-weight: bold;
+}
+
+.add-to-cart-btn:hover{
+    background: #FF2C91;
+border: 1px solid #FF2C91;
+}
+
+.section-gap {
+    margin: 20px 0;
+}
+
+.custom-policy-text{
+    font-weight: bold;
+}
+
+.custom-margin{
+    margin: 0px 14px;
+}
+
+.quick-policies div img{
+    padding-top: 5px;
+}

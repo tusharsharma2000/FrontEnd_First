@@ -1,6 +1,6 @@
 import React from "react";
 import "./navbar-main.css";
-import offerLogo from "../../assets/icons/offers.svg";
+import OfferIcon from "../../assets/icons/offers";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -35,7 +35,7 @@ const NavbarMain = () => {
 
                     <div className="right-part">
                         <div className="offers-text">
-                            <img src={offerLogo} alt="offer-logo" className="pb-1" />
+                            <OfferIcon />
                             <span className="mx-2">
                                 Offers
                             </span>

@@ -1,0 +1,22 @@
+.color-picker-main{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    border: 1px solid #dfdddd;
+    margin: 8px 15px 0 0;
+    cursor: pointer;
+}
+
+.color-picker-text{
+    font-size: 14px;
+    line-height: 16px;
+    color: #1E2228;
+    margin: 10px;
+    width: 50%;
+    text-align: left;
+    font-weight: bold;
+}
+
+.color-picker-text.pink-text{
+    color:#ff1493;
+}
