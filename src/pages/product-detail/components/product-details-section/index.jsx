@@ -9,8 +9,15 @@ import OffersIcon from "../../../../common/assets/icons/offers";
 import CartIcon from "../../../../common/assets/icons/cart";
 import ColorPicker from "../color-picker";
 import Form from 'react-bootstrap/Form';
+import { useNavigate } from "react-router-dom";
 
 const ProductDetailsSection = (props) => {
+    const navigate = useNavigate();
+
+    const goToCartPage = () => {
+        navigate("/cart");
+    }
+
     // const { productDetail } = props;
     // const {
     //     name = "",
@@ -64,8 +71,8 @@ const ProductDetailsSection = (props) => {
             <div className="color-picker section-gap">
                 <span className="color-heading">Choose Color</span>
                 <div className="d-flex justify-space-between">
-                    <ColorPicker color='#222C34' colorName='Charcal Black' active />
-                    <ColorPicker color='#3D5971' colorName='Magnite Grey' />
+                    <ColorPicker color='#222C34' colorName='Charcal Black' />
+                    <ColorPicker color='#3D5971' colorName='Magnite Grey' active />
                     <ColorPicker color='#1E4E95' colorName='Classic Blue' />
                     <ColorPicker color='white' colorName='White' />
                     <ColorPicker color='#E5E9EC' colorName='Silver' />
@@ -104,7 +111,7 @@ const ProductDetailsSection = (props) => {
                 </div>
                 <div className="d-flex align-items-center justify-space-between">
                     <span>
-                        <OffersIcon color="black" height="16" width="16"/>
+                        <OffersIcon color="black" height="16" width="16" />
                     </span>
                     <span className="my-2 custom-margin">
                         Bank Offer 5% Unlimited Cashback on Flipkart Axis Bank Credit
@@ -114,8 +121,8 @@ const ProductDetailsSection = (props) => {
             </div>
 
             <div className="add-to-cart section-gap">
-                <button className="add-to-cart-btn btn">
-                    <CartIcon color="white"/>
+                <button className="add-to-cart-btn btn" onClick={goToCartPage}>
+                    <CartIcon color="white" />
                     <span className="mx-3">Add to Cart</span>
                 </button>
             </div>
@@ -129,17 +136,17 @@ const ProductDetailsSection = (props) => {
                     </span>
                 </div>
                 <div className=" d-flex align-items-start mx-4">
-                <img src={ReturnIcon} alt="return icon" />
+                    <img src={ReturnIcon} alt="return icon" />
                     <span className="mx-3">
-                    <div>Return Policy</div>
-                    <div className="custom-policy-text">30 Days</div>
+                        <div>Return Policy</div>
+                        <div className="custom-policy-text">30 Days</div>
                     </span>
                 </div>
                 <div className="d-flex align-items-start">
-                <img src={CancelIcon} alt="Cancel icon" />
+                    <img src={CancelIcon} alt="Cancel icon" />
                     <span className="mx-3">
-                    <div>Cancellation</div>
-                    <div className="custom-policy-text">Allowed</div>
+                        <div>Cancellation</div>
+                        <div className="custom-policy-text">Allowed</div>
                     </span>
                 </div>
             </div>

@@ -6,7 +6,7 @@ const ColorPicker = (props) => {
     // const { color, active } = props;
 
     return (
-        <div>
+        <div className="color-picker-body">
             <div className="color-picker-main " style={{ backgroundColor: color }}></div>
             <div className={`color-picker-text ${ active ? "pink-text" : ""}`}>{colorName}</div>
         </div>

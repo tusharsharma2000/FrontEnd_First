@@ -8,6 +8,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import ProductList from './pages/product-list';
 import ProductDetail from './pages/product-detail';
+import Cart from './pages/cart';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path='/register' element={<Register />} />
         <Route path='/products' element={<ProductList />} />
         <Route path='/products/:productName/:productId' element={<ProductDetail />} />
+        <Route path='/cart' element={<Cart />} />
       </Routes>
     </div>
   );

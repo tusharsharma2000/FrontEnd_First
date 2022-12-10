@@ -1,0 +1,9 @@
+.payment-icons{
+    height: 56px;
+    text-align: left !important;
+    margin-left: 200px;
+}
+
+.payment-icons img{
+    height: 40px;
+}

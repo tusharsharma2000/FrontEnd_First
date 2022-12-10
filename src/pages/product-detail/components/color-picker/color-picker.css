@@ -11,7 +11,7 @@
     font-size: 14px;
     line-height: 16px;
     color: #1E2228;
-    margin: 10px;
+    margin: 10px 10px 0px 5px;
     width: 50%;
     text-align: left;
     font-weight: bold;
@@ -19,4 +19,8 @@
 
 .color-picker-text.pink-text{
     color:#ff1493;
+}
+
+.color-picker-body{
+    width: 80px;
 }
