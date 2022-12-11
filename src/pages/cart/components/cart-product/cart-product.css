@@ -30,6 +30,10 @@
   font-weight: 600;
 }
 
+.btn-custom-left-padding{
+  padding-left: 0px;
+}
+
 .cart-section-gap {
   /* margin-top: 30px;
     margin-bottom: 30px; */

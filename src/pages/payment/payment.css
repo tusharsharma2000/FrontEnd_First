@@ -36,13 +36,6 @@
   font-weight: bold;
 }
 
-.horizontal-line {
-  color: #c0bdbd;
-  border-radius: 12px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
 .hr-rule {
   border-bottom: 2px dashed #d8d8d8;
 }
@@ -105,9 +98,13 @@
   color: #7f8386;
 }
 
-.total-amt{
-  color: #231F20;
+.total-amt {
+  color: #231f20;
   font-size: 14px;
-line-height: 120%;
-font-weight: bold;
+  line-height: 120%;
+  font-weight: bold;
+}
+
+#bold-font{
+    font-weight: bold;
 }

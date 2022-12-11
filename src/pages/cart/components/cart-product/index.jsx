@@ -76,9 +76,8 @@ const CartProduct = () => {
                     </div>
                 </div>
 
-                <div className="col-md-1 d-flex align-items-center">
+                <div className="col-md-1 d-flex align-items-center btn-custom-left-padding">
                     <button className="remove-btn">Remove</button>
-
                 </div>
             </div>
         </div>

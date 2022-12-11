@@ -9,6 +9,9 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import ProductList from './pages/product-list';
 import ProductDetail from './pages/product-detail';
 import Cart from './pages/cart';
+import CartAddress from './pages/cart-address';
+import Payment from './pages/payment';
+import OrderConfirm from './pages/order-confirm';
 
 function App() {
   return (
@@ -20,6 +23,9 @@ function App() {
         <Route path='/products' element={<ProductList />} />
         <Route path='/products/:productName/:productId' element={<ProductDetail />} />
         <Route path='/cart' element={<Cart />} />
+        <Route path='/cart-address' element={<CartAddress />} />
+        <Route path='/payment' element={<Payment />} />
+        <Route path='/order' element={<OrderConfirm />} />
       </Routes>
     </div>
   );
