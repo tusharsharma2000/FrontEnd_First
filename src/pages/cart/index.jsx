@@ -32,9 +32,9 @@ const Cart = () => {
                                         <span className="mx-2">Shopping Cart</span>
                                     </div>
                                     <div className="cart-top-two mx-2">
-                                        <div className="rule"></div>
+                                        
                                         <img src={TwoIcon} alt="two icon" className="mx-1" />
-                                        <span className="mx-2">Select Address</span>
+                                        <span className="mx-2"><div className="rule"></div>Select Address</span>
                                     </div>
                                     <div className="cart-top-three mx-2">
                                         <div className="rule"></div>
@@ -54,7 +54,7 @@ const Cart = () => {
                                 <div className="apply-coupon heading">Apply Coupon</div>
                                 <div className="coupon-input-field d-flex align-items-center justify-center">
                                     <OffersIcon color="#21C17A" />
-                                    <input type="text" placeholder="Enter Coupon Code" className="px-2"/>
+                                    <input type="text" placeholder="Enter Coupon Code" className="custom-outline-none px-2"/>
                                     <button className="apply-btn pink-link">Apply</button>
                                 </div>
                             </div>

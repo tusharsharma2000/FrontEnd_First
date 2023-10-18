@@ -111,3 +111,7 @@
 line-height: 120%;
 font-weight: bold;
 }
+
+.custom-outline-none:focus{
+  outline: none;
+}
