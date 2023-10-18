@@ -6,7 +6,7 @@ const FooterTop = () => {
     return (
         <div className="footer-top-main container">
             <div className="row">
-                {features.map((feature) => {
+                {features.map( (feature) => {
                     return (
                         <div className="col-md-3 feature-container" key={feature.title}>
                             <div>
